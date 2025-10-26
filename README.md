@@ -194,7 +194,7 @@ Jika kamu menjawab "yes", maka akan muncul tabel yang berisikan layanan tambahan
 <img width="556" height="547" alt="image" src="https://github.com/user-attachments/assets/dc37ced1-4712-48b6-b9f4-93ffa458016e" />
 <img width="556" height="366" alt="image" src="https://github.com/user-attachments/assets/aacdf1c0-564b-4488-87e0-6cd996e20e3d" />
 
-Jika kamu menjawab yes, maka kamu akan memasukkan lagi ingin menambah add on berapa. Lalu jika kamu jawab no, maka akan langsung lanjut ke format pemesanan
+Jika kamu menjawab yes, maka kamu akan memasukkan lagi ingin menambah add on berapa. Lalu jika kamu jawab no, maka akan langsung lanjut ke format pemesanan.\
 <img width="303" height="128" alt="Screenshot 2025-10-26 195724" src="https://github.com/user-attachments/assets/9c46f640-c760-4fe9-913d-9252bebbea06" />
 
 Format pesanan ini kita diminta untuk mengisi nama, tanggal pemesanan, dan alamat.\
