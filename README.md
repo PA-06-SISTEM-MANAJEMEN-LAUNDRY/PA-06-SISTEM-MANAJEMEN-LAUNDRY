@@ -31,3 +31,5 @@ Flowchart ini menjelaskan alur proses pengguna dalam melakukan login atau sign u
     - Jika tidak sesuai, pengguna diarahkan untuk mencoba log in kembali dan kesempatan mencoba berkurang satu  (ketika kesempatan mencoba sudah habis, maka akan langsung keluar)
     - Jika sesuai, pengguna di arahakan ke menu sesuai role masing masing. jika role admin maka akan diarahkan ke menu admin, lalu jika rolenya customer akan di arakan ke menu customer
         
+-**Menu Admin**\
+Flowchart ini menggambarkan alur kerja sistem Menu Admin dalam sebuah aplikasi layanan (kemungkinan sistem pemesanan atau manajemen layanan).
