@@ -35,8 +35,6 @@ Flowchart ini menjelaskan alur proses pengguna dalam melakukan login atau sign u
 Flowchart ini menggambarkan alur kerja sistem Menu Admin dalam sebuah aplikasi layanan (kemungkinan sistem pemesanan atau manajemen layanan).
 
 
--**Menu Admin**\
-Flowchart ini menggambarkan alur kerja sistem Menu Admin dalam sebuah aplikasi layanan (kemungkinan sistem pemesanan atau manajemen layanan).
 
 -**Menu Customer**\
 Flowchart customer ini menjelaskan alur dari menu customer yang ada di dalam program ini. Yaitu sebagai berikut:
