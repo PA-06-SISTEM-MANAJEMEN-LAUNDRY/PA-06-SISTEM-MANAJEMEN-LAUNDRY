@@ -51,8 +51,8 @@ Pengguna akan diarahkan ke halaman utama.
 
 - Jika sesuai:  
   Pengguna akan diarahkan ke menu berdasarkan role masing-masing:
-  - 👨‍💼 Admin → Menu Admin  
-  - 👤 Customer → Menu Customer  
+  - 👨‍💼 Admin ke Menu Admin  
+  - 👤 Customer ke Menu Customer  
 
 ---
 
