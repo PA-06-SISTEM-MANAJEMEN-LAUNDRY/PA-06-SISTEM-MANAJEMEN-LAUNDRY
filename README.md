@@ -5,11 +5,12 @@ Project Akhir Kelompok 06 - Sistem Informasi B'2025
 - Vidya Khansa Mizan (2509116052)
 
 # FLOWCHART
-<img width="7610" height="2472" alt="PA (6) DDP  drawio" src="https://github.com/user-attachments/assets/1a4bc29f-e96d-43a0-81ea-023878d47ec5" />
+<img width="8885" height="3952" alt="PA (6) DDP  drawio" src="https://github.com/user-attachments/assets/2c54992d-dff0-4f57-845d-cd906bd65c03" />
+
 
 # 🔐 Login dan Sign Up Flowchart
 
-Flowchart ini menggambarkan alur proses pengguna dalam melakukan Login atau **Sign Up pada sistem ini.
+Flowchart ini menggambarkan alur proses pengguna dalam melakukan Login atau Sign Up pada sistem ini.
 
 ---
 
@@ -56,24 +57,135 @@ Pengguna akan diarahkan ke halaman utama.
 
 ---
 
+# ⚙️ Flowchart Menu Admin
+
+Flowchart ini menjelaskan proses kerja **Menu Admin** dalam sistem manajemen layanan dan pesanan customer.  
+Admin memiliki beberapa opsi menu untuk mengelola data layanan dan pesanan yang tersimpan dalam file database berformat **JSON**.
+
+---
+
+### 🟢 Awal: Menu Admin
+Admin memiliki 5 pilihan menu utama:
+1. **Rekap Pesanan Customer**  
+2. **Update Layanan dan Harga**  
+3. **Menambahkan Layanan Baru**  
+4. **Menghapus Layanan**  
+5. **Log Out**
+---
+
+### 1️⃣ Menu 1: Rekap Pesanan Customer
+- Sistem memanggil file **`pesanan.json`** dari database.  
+- Menampilkan **seluruh pesanan customer** yang tersimpan.  
+- Setelah semua data pesanan tampil, sistem kembali ke **Menu Admin**.
+
+---
+
+### 2️⃣ Menu 2: Update Layanan dan Harga
+- Sistem memanggil file **`produk.json`** dari database.  
+- Menampilkan **daftar layanan customer** yang tersedia.  
+- Admin memasukkan:
+  - **Nomor layanan** yang akan diupdate.  
+  - **Harga baru** untuk layanan tersebut.  
+
+- Sistem melakukan pengecekan:
+  - ❓ **Apakah nomor layanan valid?**
+    - Jika **tidak valid**, sistem menampilkan pesan kesalahan dan kembali ke Menu Admin.
+  - ❓ **Apakah harga baru valid (lebih dari 0)?**
+    - Jika **ya**, sistem **mengupdate layanan** pada `produk.json`.  
+    - Menampilkan **daftar layanan terbaru**.  
+    - Kembali ke Menu Admin.
+
+---
+
+### 3️⃣ Menu 3: Menambahkan Layanan Baru
+- Sistem memanggil file **`produk.json`** dari database.  
+- Menampilkan **daftar layanan customer** yang tersedia.  
+- Admin kemudian memasukkan:
+  - **Nama layanan baru**.  
+  - **Harga layanan baru**.  
+
+- Sistem melakukan pengecekan:
+  - ❓ **Apakah input harga valid (lebih dari 0)?**
+    - Jika **ya**, sistem **menambahkan layanan baru** ke file `produk.json`.  
+    - Menampilkan **daftar layanan terbaru**.  
+    - Kembali ke Menu Admin.
+
+---
+
+### 4️⃣ Menu 4: Menghapus Layanan
+- Sistem memanggil file **`produk.json`** dari database.  
+- Menampilkan **daftar layanan customer** yang tersedia.  
+- Admin memasukkan **nomor layanan** yang akan dihapus.  
+
+- Sistem memeriksa:
+  - ❓ **Apakah layanan ditemukan?**
+    - Jika **ya**, sistem **menghapus layanan** dari `produk.json`.  
+    - Menampilkan **daftar layanan terbaru**.  
+    - Kembali ke Menu Admin.  
+    - Jika **tidak**, sistem kembali ke Menu Admin tanpa perubahan.
+
+---
+
+### 5️⃣ Menu 5: Log Out
+- Sistem menampilkan pesan **"Exit"** dan keluar dari **Menu Admin**.
+
+---
+
+### 🚫 Jika Input Tidak Valid
+- Sistem menampilkan pesan:
+  > "Input tidak valid"
+- Kemudian kembali ke **Menu Admin** untuk meminta input ulang.
+
+---
+
+# ⚙️ Flowchart Menu Admin  
+
+Flowchart ini menggambarkan alur sistem layanan laundry untuk customer dalam melakukan berbagai aktivitas seperti **pemesanan layanan**, **pengecekan saldo**, dan **pengisian saldo**.  
+
+### 🏠 Menu Utama Customer  
+Setelah customer masuk ke sistem, muncul menu utama yang berisi beberapa pilihan:  
+1. Lihat Layanan Laundry  
+2. Pesan Layanan Laundry  
+3. Top Up Saldo  
+4. Lihat Saldo  
+5. Log Out
+    
+Sistem akan memeriksa pilihan customer dan mengarahkan ke proses berikutnya.
+
+### 📋 1. Lihat Layanan Laundry  
+Jika customer memilih opsi ini:  
+- Sistem mengambil data layanan dari database (produk.json).  
+- Menampilkan daftar layanan kepada customer.  
+- Setelah ditampilkan, sistem kembali ke menu utama.  
+
+### 🧾 2. Pesan Layanan Laundry
+Jika customer memilih untuk memesan layanan:  
+1. Sistem menampilkan daftar layanan yang tersedia.  
+2. Customer memilih layanan yang diinginkan.  
+3. Sistem meminta jumlah pesanan dan memeriksa apakah input valid.  
+4. Jika valid, sistem menghitung total harga.  
+5. Sistem memeriksa saldo customer:  
+    - Jika saldo cukup, pesanan dicatat di database (pemesanan.json), saldo dikurangi, lalu pengguna mengisi format pemesanan, dan struk pesanan ditampilkan.  
+    - Jika saldo tidak cukup, muncul notifikasi “Saldo tidak mencukupi”.
+      
+### 💳 3. Lihat Saldo
+Jika customer memilih untuk melihat saldo:  
+- Sistem mengambil data saldo dari database (saldo.json).  
+- Menampilkan saldo kepada customer.  
+- Setelah ditampilkan, sistem kembali ke menu utama.
+
+### 💰 4. Top Up Saldo
+Jika customer memilih untuk melakukan top up:  
+1. Sistem meminta nominal top up (Rp10.000 – Rp2.000.000).
+2. Sistem memvalidasi nominal.
+3. Jika valid, saldo bertambah dan disimpan di database (saldo.json).
+4. Sistem menampilkan pesan “Top Up Berhasil”.
 
 
-
-
-        
--**Menu Admin**\
-Flowchart ini menggambarkan alur kerja sistem Menu Admin dalam sebuah aplikasi layanan (kemungkinan sistem pemesanan atau manajemen layanan).
-
-
-
--**Menu Customer**\
-Flowchart customer ini menjelaskan alur dari menu customer yang ada di dalam program ini. Yaitu sebagai berikut:
-1. Menampilkan halaman menu utama customer, dan menampilkan pilihan menu mana yang akan diakses oleh customer.
-2. Lihat daftar produk/layanan
-3. Pesan layanan
-4. Lihat Saldo
-5. Top Up Saldo
-6. Keluar
+### 🚪 6. Log Out
+Jika customer memilih keluar:
+- Sistem menampilkan pesan “Berhasil Log Out”.
+- Proses customer berakhir.
 
 
 # SIGN-UP DAN LOG-IN
