@@ -265,7 +265,6 @@ Error Handling yang di terapkan pada sistem manajemen laundry ini, sebagai berik
 - except KeyboardInterrupt : Jika pengguna menekan ctrl+c pada saat program berjalan.    
 - except EOFError : Jika pengguna menekan ctrl+z enter pada saat program berjalan.  
 - except ValueError : Jika kamu menginput yang tidak sesuai. misalnya, jika harusnya pengguna menginput angka tapi pengguna menginput huruf
-- except Exception : 
 
 **Halaman Awal**  
 - except KeyboardInterrupt  
@@ -400,8 +399,26 @@ Error Handling yang di terapkan pada sistem manajemen laundry ini, sebagai berik
 - except EOFError
 <img width="511" height="215" alt="Screenshot 2025-10-26 223325" src="https://github.com/user-attachments/assets/585fd2a7-de7d-4654-8a2b-e629e86f6cd2" />
 
+# VALIDASI
+Di program sistem manajemen laundry ini terdapat validasi, yaitu sebagai berikut:
+- Validasi angka : Memastikan input dari pengguna adalah angka. Mengecek agar angka yang di input di antara batas minimal dan maksimal.
+- Validasi Yes or No : Memastikan pengguna untuk menjawab hanya antara yes atau no
+- Validasi Teks : Memastikan pengguna menginput sesuai dengan batas minimal
+- Validasi tanggal : Memastikan pengguna agar menginput tanggal sesuai dengan format
 
+Contoh dari **validasi angka**:  
+<img width="689" height="258" alt="Screenshot 2025-10-26 225015" src="https://github.com/user-attachments/assets/cb8eeadc-bb68-4f07-8790-b369efa1708b" />
 
+Contoh dari **validasi yes or no**:  
+<img width="552" height="168" alt="Screenshot 2025-10-26 225137" src="https://github.com/user-attachments/assets/b05b2ef5-46cc-4f12-9c8a-c0f21609b549" />
+
+Contoh dari **validasi teks**:  
+<img width="545" height="199" alt="Screenshot 2025-10-26 225337" src="https://github.com/user-attachments/assets/f56dae14-fb92-4177-810b-feb716b9377f" />
+
+Contoh dari **validasi tanggal**:  
+<img width="643" height="294" alt="Screenshot 2025-10-26 225559" src="https://github.com/user-attachments/assets/7bb77aad-dbd0-47ea-80e5-d960c84ce328" />
+
+  
   
 
 
