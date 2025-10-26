@@ -149,7 +149,8 @@ Lalu kamu akan diminta untuk memilih nomor layanan mana yang ingin kamu hapus da
 <img width="553" height="348" alt="image" src="https://github.com/user-attachments/assets/0198a488-de73-4def-aac6-a2f99f763a92" />
 
 Selanjutnya akan muncul output tabel yang nomor layanannya kita pilih sudah terhapus dari tabel.
-<img width="552" height="345" alt="image" src="https://github.com/user-attachments/assets/b2490ddb-35ef-4c36-80f9-27c64a2737a9" />\
+<img width="552" height="345" alt="image" src="https://github.com/user-attachments/assets/b2490ddb-35ef-4c36-80f9-27c64a2737a9" />
+
 Lalu jika kamu klik "Enter" pada keyboardmu maka, dia akan kembali ke menu admin.
 
 - **MENU 5**\
@@ -183,16 +184,25 @@ Pada menu 2 ini, kamu sebagai customer bisa melihat layanan apa saja yang disedi
 Setelah itu akan muncul pertanyaan nomor layanan mana yang ingin kamu pesan dan berapa jumlah (Baju atau per-Kg) yang ingin kamu laundry kan. Semisal kami ingin memesan layanan nomor 2 dengan jumlah 2 Kg, maka tinggal kami masukkan ke masing-masing input sesuai dengan apa yang ditanyakan.\
 <img width="557" height="395" alt="image" src="https://github.com/user-attachments/assets/cdaadd2f-ffb7-4ade-ad70-fba75dd72bb2" />
 
-Setelahnya akan muncul catatan singkat mengenai layanan yang kamu pesan dan total pembayarannya, selain itu akan muncul pertanyaan apakah kamu ingin menambahkan add-on. 
+Setelahnya akan muncul catatan singkat mengenai layanan yang kamu pesan dan total pembayarannya, selain itu akan muncul pertanyaan apakah kamu ingin menambahkan add-on.\
 <img width="561" height="543" alt="image" src="https://github.com/user-attachments/assets/04672940-68ff-4b20-b838-521834a46be1" />
 
-jika kamu menjawab "no", maka akan muncul output 
+jika kamu menjawab "no", maka akan langsung muncul output format pemesanan.\
+<img width="303" height="128" alt="Screenshot 2025-10-26 195724" src="https://github.com/user-attachments/assets/9c46f640-c760-4fe9-913d-9252bebbea06" />
 
 Jika kamu menjawab "yes", maka akan muncul tabel yang berisikan layanan tambahan atau "add-on" dan kemudian akan Washy akan meminta kita untuk memilih nomor layanan yang ingin kita tambahkan. Semisal kami ingin memilih nomor 4 (Antar-Jemput), maka input nomor 4 dan setelahnya akan ditanya lagi apakah kamu ingin menambah add-on lagi.\
 <img width="556" height="547" alt="image" src="https://github.com/user-attachments/assets/dc37ced1-4712-48b6-b9f4-93ffa458016e" />
 <img width="556" height="366" alt="image" src="https://github.com/user-attachments/assets/aacdf1c0-564b-4488-87e0-6cd996e20e3d" />
 
-Jika kamu menjawab
+Jika kamu menjawab yes, maka kamu akan memasukkan lagi ingin menambah add on berapa. Lalu jika kamu jawab no, maka akan langsung lanjut ke format pemesanan
+<img width="303" height="128" alt="Screenshot 2025-10-26 195724" src="https://github.com/user-attachments/assets/9c46f640-c760-4fe9-913d-9252bebbea06" />
+
+Format pesanan ini kita diminta untuk mengisi nama, tanggal pemesanan, dan alamat.\
+<img width="301" height="149" alt="Screenshot 2025-10-26 200449" src="https://github.com/user-attachments/assets/63d71976-605c-49f5-8ab3-fd67809db01b" />
+
+Jika semua input yang diminta sudah terisi, maka akan langsung menampilkan invoice dari pesanan.\
+<img width="304" height="208" alt="image" src="https://github.com/user-attachments/assets/26da6db3-b4f0-4ae7-8abf-55463fb50d55" />
+
 
 - **MENU 3**\
 Pada menu 3 ini, kamu sebagai customer bisa melihat berapa isi saldo yang kamu miliki pada akun sekarang.
