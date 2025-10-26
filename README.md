@@ -71,8 +71,6 @@ Flowchart ini menggambarkan alur kerja sistem Menu Admin dalam sebuah aplikasi l
 -**Menu Customer**\
 Flowchart customer ini menjelaskan alur dari menu customer yang ada di dalam program ini. Yaitu sebagai berikut:
 1. Menampilkan halaman menu utama customer, dan menampilkan pilihan menu mana yang akan diakses oleh customer.
-   <img width="420" height="278" alt="Screenshot 2025-10-26 145215" src="https://github.com/user-attachments/assets/d22af66e-3183-40b9-b1dd-267ad20395fb" />
-
 2. Lihat daftar produk/layanan
 3. Pesan layanan
 4. Lihat Saldo
