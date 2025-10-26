@@ -368,16 +368,16 @@ Error Handling yang di terapkan pada sistem manajemen laundry ini, sebagai berik
 <img width="524" height="438" alt="Screenshot 2025-10-26 221427" src="https://github.com/user-attachments/assets/ce724d28-d04a-4735-a01b-2efbd4ffdd98" />
 <img width="585" height="226" alt="Screenshot 2025-10-26 221457" src="https://github.com/user-attachments/assets/80fd7db9-a516-4456-a31e-65e1f0e08bc7" />
 
-   **Add on**
-  - except KeyboardInterrupt, except EOFError, & except ValueError    
-  <img width="537" height="522" alt="Screenshot 2025-10-26 222204" src="https://github.com/user-attachments/assets/25b782c8-9282-47df-ab7b-3e259a09cd67" />
+**Add on**
+- except KeyboardInterrupt, except EOFError, & except ValueError    
+<img width="537" height="522" alt="Screenshot 2025-10-26 222204" src="https://github.com/user-attachments/assets/25b782c8-9282-47df-ab7b-3e259a09cd67" />
 
-   **Format Pesanan**
-    - except KeyboardInterrupt  
-    <img width="647" height="312" alt="Screenshot 2025-10-26 222352" src="https://github.com/user-attachments/assets/7c0c78db-5b81-4a05-9d7e-8c2d7685c81a" />
+**Format Pesanan**
+- except KeyboardInterrupt  
+<img width="647" height="312" alt="Screenshot 2025-10-26 222352" src="https://github.com/user-attachments/assets/7c0c78db-5b81-4a05-9d7e-8c2d7685c81a" />
 
-    - except EOFError
-    <img width="538" height="175" alt="Screenshot 2025-10-26 222410" src="https://github.com/user-attachments/assets/ec49fa75-ebfc-473a-8e17-ea18a80f629f" />
+- except EOFError
+<img width="538" height="175" alt="Screenshot 2025-10-26 222410" src="https://github.com/user-attachments/assets/38fb969d-7f31-41da-a278-ed7e6a3b00cd" />
 
 3. **Lihat Saldo**
 - except KeyboardInterrupt dan except EOFError  
