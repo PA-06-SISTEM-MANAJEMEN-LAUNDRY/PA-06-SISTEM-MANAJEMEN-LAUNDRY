@@ -258,3 +258,114 @@ Setelahnya kamu akan ditanya apakah yakin ingin log-out, jika kamu menjawab "yes
 
 Namun jika kamu menjawab "no" maka kamu akan kembali ke menu admin.
 <img width="556" height="470" alt="image" src="https://github.com/user-attachments/assets/ca4cd262-01a8-4b0d-ba65-be98cef0ea40" />
+
+
+# ERROR HANDLING
+Error Handling yang di terapkan pada sistem manajemen laundry ini, sebagai berikut:  
+- except KeyboardInterrupt : Jika pengguna menekan ctrl+c pada saat program berjalan.    
+- except EOFError : Jika pengguna menekan ctrl+z enter pada saat program berjalan.  
+- except ValueError : Jika kamu menginput yang tidak sesuai. misalnya, jika harusnya pengguna menginput angka tapi pengguna menginput huruf
+- except Exception : 
+
+**Halaman Awal**  
+- except KeyboardInterrupt  
+<img width="573" height="256" alt="Screenshot 2025-10-26 212037" src="https://github.com/user-attachments/assets/e20928f3-64ab-4406-9c62-9bfcf67c924d" />
+<img width="649" height="334" alt="Screenshot 2025-10-26 213736" src="https://github.com/user-attachments/assets/df6efca3-b893-4675-b16f-b93653fa7195" />
+
+- except EOFError  
+<img width="596" height="264" alt="Screenshot 2025-10-26 212047" src="https://github.com/user-attachments/assets/781ee48a-0a97-4144-b2da-a7389b844f03" />  
+<img width="640" height="338" alt="Screenshot 2025-10-26 213752" src="https://github.com/user-attachments/assets/53e3d83a-8d81-463e-9d91-51b63ded2e12" />
+
+
+**Log in**  
+- except KeyboardInterrupt dan except EOFError  
+<img width="649" height="346" alt="Screenshot 2025-10-26 213550" src="https://github.com/user-attachments/assets/9975e89c-9e1c-4b63-ab21-c07e0f05bcc0" />
+
+**Sign up**  
+- except KeyboardInterrupt dan except EOFError  
+<img width="618" height="290" alt="Screenshot 2025-10-26 214052" src="https://github.com/user-attachments/assets/de94ffcc-267a-40c0-91d8-a9df01f1a9b3" />  
+
+**Daftar Menu Admin**
+- except KeyboardInterrupt  
+<img width="678" height="462" alt="Screenshot 2025-10-26 214351" src="https://github.com/user-attachments/assets/2f318f04-ff61-4b0d-9af2-26f9b7f44a6a" />
+
+- except EOFError  
+<img width="667" height="470" alt="Screenshot 2025-10-26 214358" src="https://github.com/user-attachments/assets/5d332998-fb41-4e7d-9045-98bacc0e5d5a" />
+
+- except ValueError  
+<img width="616" height="441" alt="Screenshot 2025-10-26 214335" src="https://github.com/user-attachments/assets/beba5c53-ad56-42ac-a9f3-4f16a9170163" />
+
+1. **Recap Pesanan**  
+- except KeyboardInterrupt  
+<img width="1494" height="415" alt="Screenshot 2025-10-26 214824" src="https://github.com/user-attachments/assets/a70ad031-8c29-4750-ab5d-df93c1ffda47" />
+
+- except EOFError  
+<img width="1441" height="388" alt="Screenshot 2025-10-26 214850" src="https://github.com/user-attachments/assets/29f6533d-0b89-474b-8651-c8f21e8628fc" />
+
+2. **Update Harga**  
+- except KeyboardInterrupt   
+<img width="615" height="351" alt="Screenshot 2025-10-26 215139" src="https://github.com/user-attachments/assets/d2166b3e-6ef0-46e3-be97-a64d1bccd415" />
+
+- except EOFError    
+<img width="723" height="377" alt="Screenshot 2025-10-26 215149" src="https://github.com/user-attachments/assets/0ba4c9f8-81ba-4686-9bfb-b60be7284426" />
+
+- except ValueError    
+<img width="643" height="381" alt="Screenshot 2025-10-26 215201" src="https://github.com/user-attachments/assets/3c769311-5892-4b60-b906-4f5181a06a1d" />
+<img width="672" height="407" alt="Screenshot 2025-10-26 215522" src="https://github.com/user-attachments/assets/ff87d822-908c-4809-9a16-9111982a04cb" />
+
+3. **Menambah Layanan**  
+- except KeyboardInterrupt  
+<img width="720" height="425" alt="Screenshot 2025-10-26 215808" src="https://github.com/user-attachments/assets/af019b10-766d-416c-83b5-5933fc0c8cb8" />
+
+- except EOFError     
+<img width="696" height="378" alt="Screenshot 2025-10-26 215817" src="https://github.com/user-attachments/assets/a5cf82bd-5f7c-48d4-8c02-b5bb7657f6a9" />
+
+- except ValueError    
+<img width="648" height="407" alt="Screenshot 2025-10-26 215745" src="https://github.com/user-attachments/assets/ec48a3c9-c594-4a33-b9ea-3522b995e1b0" />
+
+4. **Hapus Layanan**
+- except KeyboardInterrupt  
+<img width="550" height="377" alt="Screenshot 2025-10-26 220011" src="https://github.com/user-attachments/assets/beae0319-563a-4b79-8b84-6742014b327a" />
+
+- except EOFError     
+<img width="577" height="390" alt="Screenshot 2025-10-26 220018" src="https://github.com/user-attachments/assets/6c4a7e7d-ac92-4f78-97c2-73fd2badfdce" />
+
+- except ValueError    
+<img width="560" height="396" alt="Screenshot 2025-10-26 220031" src="https://github.com/user-attachments/assets/b8dd1fb6-12fb-488c-ad6f-a8408d2321c9" />
+
+5. **Keluar (menu admin)**
+- except KeyboardInterrupt  
+<img width="619" height="412" alt="Screenshot 2025-10-26 220209" src="https://github.com/user-attachments/assets/aa4167a3-227c-47f7-a278-bf9444cf533d" />
+
+- except EOFError  
+<img width="676" height="427" alt="Screenshot 2025-10-26 220222" src="https://github.com/user-attachments/assets/f0d6c9fe-9abd-490a-a02a-6789c345a336" />
+
+**Daftar Menu Customer**
+- except KeyboardInterrupt  
+<img width="523" height="407" alt="Screenshot 2025-10-26 220950" src="https://github.com/user-attachments/assets/f6655022-a355-4588-84e9-111d787c2ec2" />
+
+- except EOFError  
+<img width="541" height="441" alt="Screenshot 2025-10-26 220958" src="https://github.com/user-attachments/assets/110475b0-b27e-439a-a396-a97018b8c358" />
+
+- except ValueError    
+<img width="515" height="431" alt="Screenshot 2025-10-26 221018" src="https://github.com/user-attachments/assets/2c377c0d-9e96-495a-a526-b24fff137f5b" />
+
+1. **Daftar Layanan**
+- except KeyboardInterrupt  
+<img width="533" height="367" alt="Screenshot 2025-10-26 221034" src="https://github.com/user-attachments/assets/1854e78b-6085-499f-a93d-ad47bcced17e" />
+
+- except EOFError  
+<img width="539" height="405" alt="Screenshot 2025-10-26 221048" src="https://github.com/user-attachments/assets/20fd39eb-b437-4009-9407-ffe1463e2d52" />
+
+2. **Pesan Layanan**
+
+
+
+
+
+
+
+
+
+
+
