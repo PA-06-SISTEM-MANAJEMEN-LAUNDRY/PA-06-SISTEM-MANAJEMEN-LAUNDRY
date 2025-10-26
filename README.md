@@ -358,9 +358,51 @@ Error Handling yang di terapkan pada sistem manajemen laundry ini, sebagai berik
 <img width="539" height="405" alt="Screenshot 2025-10-26 221048" src="https://github.com/user-attachments/assets/20fd39eb-b437-4009-9407-ffe1463e2d52" />
 
 2. **Pesan Layanan**
+- except KeyboardInterrupt  
+<img width="503" height="394" alt="Screenshot 2025-10-26 221350" src="https://github.com/user-attachments/assets/1c319dea-c065-454f-b8f0-fd4859a8a8a3" />
+
+- except EOFError  
+<img width="519" height="423" alt="Screenshot 2025-10-26 221358" src="https://github.com/user-attachments/assets/4fb4029b-7806-44ef-b1a7-5e40fbe126fe" />
+
+- except ValueError    
+<img width="524" height="438" alt="Screenshot 2025-10-26 221427" src="https://github.com/user-attachments/assets/ce724d28-d04a-4735-a01b-2efbd4ffdd98" />
+<img width="585" height="226" alt="Screenshot 2025-10-26 221457" src="https://github.com/user-attachments/assets/80fd7db9-a516-4456-a31e-65e1f0e08bc7" />
+
+   **Add on**
+  - except KeyboardInterrupt, except EOFError, & except ValueError    
+  <img width="537" height="522" alt="Screenshot 2025-10-26 222204" src="https://github.com/user-attachments/assets/25b782c8-9282-47df-ab7b-3e259a09cd67" />
+
+   **Format Pesanan**
+    - except KeyboardInterrupt  
+    <img width="647" height="312" alt="Screenshot 2025-10-26 222352" src="https://github.com/user-attachments/assets/7c0c78db-5b81-4a05-9d7e-8c2d7685c81a" />
+
+    - except EOFError
+    <img width="538" height="175" alt="Screenshot 2025-10-26 222410" src="https://github.com/user-attachments/assets/ec49fa75-ebfc-473a-8e17-ea18a80f629f" />
+
+3. **Lihat Saldo**
+- except KeyboardInterrupt dan except EOFError  
+<img width="570" height="340" alt="Screenshot 2025-10-26 222711" src="https://github.com/user-attachments/assets/2fac2b27-02a1-48db-bf2a-9b54c68029ea" />
+
+4. **Top Up**
+- except KeyboardInterrupt  
+<img width="630" height="265" alt="Screenshot 2025-10-26 222914" src="https://github.com/user-attachments/assets/e3b5a2dd-2a9a-4be7-821e-b82565b465fd" />
+
+- except EOFError
+<img width="649" height="295" alt="Screenshot 2025-10-26 222920" src="https://github.com/user-attachments/assets/8a51f563-96d9-40f1-83af-efb8a3567cde" />
+
+- except ValueError    
+<img width="665" height="329" alt="Screenshot 2025-10-26 222933" src="https://github.com/user-attachments/assets/682ef5f6-ca01-4f92-8e0e-0d8b445243cd" />
+
+5. **Keluar(menu customer)**
+- except KeyboardInterrupt     
+<img width="504" height="204" alt="Screenshot 2025-10-26 223316" src="https://github.com/user-attachments/assets/0fa421a8-e0c2-42f3-a0c7-cfd63ecbbd2b" />
+
+- except EOFError
+<img width="511" height="215" alt="Screenshot 2025-10-26 223325" src="https://github.com/user-attachments/assets/585fd2a7-de7d-4654-8a2b-e629e86f6cd2" />
 
 
 
+  
 
 
 
