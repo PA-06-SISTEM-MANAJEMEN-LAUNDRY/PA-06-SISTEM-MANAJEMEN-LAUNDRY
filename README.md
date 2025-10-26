@@ -37,10 +37,10 @@ Jika Belum → Pengguna diarahkan ke proses Sign Up.
         Pengguna diminta untuk mencoba kembali.
         Kesempatan login akan berkurang satu setiap kali gagal.
         Jika kesempatan sudah habis, sistem akan mengeluarkan pengguna secara otomatis.
-        2. Jika sesuai:
-        Pengguna akan diarahkan ke menu berdasarkan role masing-masing:
-                👨‍💼 Admin → Menu Admin
-                👤 Customer → Menu Customer
+        2. Jika sesuai: <br>
+        Pengguna akan diarahkan ke menu berdasarkan role masing-masing:<br>
+                👨‍💼 Admin → Menu Admin <br>
+                👤 Customer → Menu Customer <br>
 
 
 
