@@ -7,40 +7,56 @@ Project Akhir Kelompok 06 - Sistem Informasi B'2025
 # FLOWCHART
 <img width="7610" height="2472" alt="PA (6) DDP  drawio" src="https://github.com/user-attachments/assets/1a4bc29f-e96d-43a0-81ea-023878d47ec5" />
 
-🔐 _**Login dan Sign Up Flowchart**\
+# 🔐 Login dan Sign Up Flowchart
 
-Flowchart ini menggambarkan alur proses pengguna dalam melakukan Login atau Sign Up pada sistem.
+Flowchart ini menggambarkan alur proses pengguna dalam melakukan Login atau **Sign Up pada sistem ini.
 
-🏠 1. Menampilkan Halaman Utama
+---
+
+## 🏠 1. Menampilkan Halaman Utama
+Pengguna akan diarahkan ke halaman utama.
+
+---
+
+## ❓ 2. Apakah Pengguna Sudah Memiliki Akun?
+- Jika Sudah, Pengguna diarahkan ke proses Login.  
+- Jika Belum, Pengguna diarahkan ke proses Sign Up.
+
+---
+
+## 📝 3. Proses Sign Up
+1. Menampilkan halaman Sign Up.  
+2. Pengguna memasukkan username, minimal 3 karakter.  
+3. Pengguna memasukkan password, minimal 3 karakter.
+4. Jika pengguna menginput username dan password kurang dari 3 karakter, maka akan diarahkan untuk mengisi username dan password ulang  
+5. Data pengguna kemudian disimpan ke database.  
+6. Setelah pendaftaran berhasil, pengguna akan diarahkan ke halaman Login.
+
+---
+
+## 🔑 4. Proses Login
+1. Menampilkan halaman Login.  
+2. Pengguna memiliki 3 kali kesempatan untuk login.  
+3. Pengguna memasukkan username.  
+4. Pengguna memasukkan password.  
+5. Sistem akan memverifikasi kecocokan username dan password dengan data di database.
+
+---
+
+## ⚙️ 5. Verifikasi Login
+- Jika tidak sesuai:
+  - Pengguna diminta untuk mencoba kembali.  
+  - Kesempatan login akan berkurang satu setiap kali gagal.  
+  - Jika kesempatan sudah habis, sistem akan mengeluarkan pengguna secara otomatis.  
+
+- Jika sesuai:  
+  Pengguna akan diarahkan ke menu berdasarkan role masing-masing:
+  - 👨‍💼 Admin → Menu Admin  
+  - 👤 Customer → Menu Customer  
+
+---
 
 
-❓ 2. Apakah Pengguna Sudah Memiliki Akun?
-Jika Sudah → Pengguna diarahkan ke proses Login.
-Jika Belum → Pengguna diarahkan ke proses Sign Up.
-
-📝 3. Proses Sign Up
-        1. Menampilkan halaman Sign Up.
-        2. Pengguna memasukkan username.
-        3. Pengguna memasukkan password.
-        4. Data pengguna kemudian disimpan ke database.
-        5. Setelah pendaftaran berhasil, pengguna akan diarahkan ke halaman Login.
-
-🔑 4. Proses Login
-        1. Menampilkan halaman Login.
-        2. Pengguna memiliki 3 kali kesempatan untuk login.
-        3. Pengguna memasukkan username.
-        4. Pengguna memasukkan password.
-        5. Sistem akan memverifikasi kecocokan username dan password dengan data di database.
-
-⚙️ 5. Verifikasi Login
-        1. Jika tidak sesuai:
-        Pengguna diminta untuk mencoba kembali.
-        Kesempatan login akan berkurang satu setiap kali gagal.
-        Jika kesempatan sudah habis, sistem akan mengeluarkan pengguna secara otomatis. <br>
-        2. Jika sesuai: <br>
-        Pengguna akan diarahkan ke menu berdasarkan role masing-masing:<br>
-                👨‍💼 Admin → Menu Admin <br>
-                👤 Customer → Menu Customer <br>
 
 
 
