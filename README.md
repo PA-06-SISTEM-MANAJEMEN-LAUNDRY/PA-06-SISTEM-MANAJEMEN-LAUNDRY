@@ -36,7 +36,7 @@ Jika Belum → Pengguna diarahkan ke proses Sign Up.
         1. Jika tidak sesuai:
         Pengguna diminta untuk mencoba kembali.
         Kesempatan login akan berkurang satu setiap kali gagal.
-        Jika kesempatan sudah habis, sistem akan mengeluarkan pengguna secara otomatis.
+        Jika kesempatan sudah habis, sistem akan mengeluarkan pengguna secara otomatis. <br>
         2. Jika sesuai: <br>
         Pengguna akan diarahkan ke menu berdasarkan role masing-masing:<br>
                 👨‍💼 Admin → Menu Admin <br>
