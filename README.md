@@ -138,7 +138,7 @@ Admin memiliki 5 pilihan menu utama:
 
 ---
 
-# ⚙️ Flowchart Menu Admin  
+# ⚙️ Flowchart Menu Customer  
 
 Flowchart ini menggambarkan alur sistem layanan laundry untuk customer dalam melakukan berbagai aktivitas seperti **pemesanan layanan**, **pengecekan saldo**, dan **pengisian saldo**.  
 
