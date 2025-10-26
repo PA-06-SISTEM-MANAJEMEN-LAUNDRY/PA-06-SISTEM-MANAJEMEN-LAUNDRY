@@ -29,7 +29,7 @@ Pengguna akan diarahkan ke halaman utama.
 2. Pengguna memasukkan username, minimal 3 karakter.  
 3. Pengguna memasukkan password, minimal 3 karakter.
 4. Jika pengguna menginput username dan password kurang dari 3 karakter, maka akan diarahkan untuk mengisi username dan password ulang  
-5. Data pengguna kemudian disimpan ke database.  
+5. Data pengguna kemudian disimpan ke "datauseradmin.json".  
 6. Setelah pendaftaran berhasil, pengguna akan diarahkan ke halaman Login.
 
 ---
@@ -39,7 +39,7 @@ Pengguna akan diarahkan ke halaman utama.
 2. Pengguna memiliki 3 kali kesempatan untuk login.  
 3. Pengguna memasukkan username.  
 4. Pengguna memasukkan password.  
-5. Sistem akan memverifikasi kecocokan username dan password dengan data di database.
+5. Sistem akan memverifikasi kecocokan username dan password dengan data di "datauseradmin.json".
 
 ---
 
